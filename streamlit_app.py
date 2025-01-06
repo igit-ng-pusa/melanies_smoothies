@@ -39,6 +39,7 @@ if ingredients_list:
     #st.write(ingredients_string)
 
     my_insert_stmt = """ insert into smoothies.public.orders(ingredients, name_on_order)
+            values ('""" + ingredients_string + """','"""+namem_on_order+""""')"""
             # Import python packages
 import streamlit as st
 from snowflake.snowpark.functions import col
