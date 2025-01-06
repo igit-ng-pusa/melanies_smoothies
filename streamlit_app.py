@@ -53,7 +53,7 @@ st.write(
     """
     Choose the fruits you want in your custom Smoothie.
     """)
-namem_on_order = st.text_input("Name on Smoothie")
+name_on_order = st.text_input("Name on Smoothie")
 st.write("Name on your smoothie will be", name_on_order)
 
 cnx = st.connection("snowflake")
